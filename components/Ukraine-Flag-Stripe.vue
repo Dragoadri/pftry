@@ -2,6 +2,8 @@
   <div tabindex="0" class="flag-stripe" data-scroll-sticky>
     <div class="flag-stripe__line"></div>
     <div class="flag-stripe__line"></div>
+    <div class="flag-stripe__line"></div>
+
 
     <NuxtLink
       v-hoverable.outer-link
@@ -44,15 +46,19 @@
     left: 0;
     right: 0;
 
-    height: 50%;
+    height: 33%;
 
     &:nth-child(1) {
-      background-color: #2659ac;
+      background-color: #ac2626;
       top: 0;
     }
     &:nth-child(2) {
-      background-color: #f8d447;
-      top: 50%;
+      background-color: #dbb624;
+      top: 33%;
+    }
+    &:nth-child(3) {
+      background-color: #db2424;
+      bottom: 0;
     }
   }
 
@@ -76,3 +82,5 @@
   }
 }
 </style>
+<script setup lang="ts">
+</script>

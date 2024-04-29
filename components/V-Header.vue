@@ -3,7 +3,7 @@ const { gsap } = useGsap();
 const emitter = useEmitter();
 const prefersReducedMotion = useReducedMotion();
 
-const subtitleText = 'Front End Developer';
+const subtitleText = 'Computer engineer & Developer';
 
 const header = ref(null);
 
