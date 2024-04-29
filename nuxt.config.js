@@ -7,11 +7,11 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'en', dir: 'ltr' },
-      titleTemplate: '%s | Bogdan Kostyuk',
+      titleTemplate: '%s | Adrian Cañadas',
       meta: [
         { lang: 'en' },
         { language: 'English' },
-        { property: 'name', name: 'name', content: 'Bogdan Kostyuk' },
+        { property: 'name', name: 'name', content: 'Adrian Cañadas' },
         { charset: 'utf-8' },
         { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
         { 'http-equiv': 'Reply-to', content: 'contact@bogdankostyuk.xyz' },
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
         {
           property: 'og:site_name',
           name: 'og:site_name',
-          content: 'Bogdan Kostyuk',
+          content: 'Adrian Cañadas',
         },
         { property: 'og:locale', name: 'og:locale', content: 'en' },
         { property: 'og:type', name: 'og:type', content: 'website' },

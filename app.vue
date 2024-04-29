@@ -68,9 +68,9 @@ onMounted(() => {
 
 <template>
   <VNavbar />
-  <!---->
+  <!--
   <SpainFlagStripe />
-
+-->
   <Transition
     :css="false"
     mode="out-in"
