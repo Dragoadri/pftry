@@ -7,7 +7,7 @@
 
     <NuxtLink
       v-hoverable.outer-link
-      href="https://u24.gov.ua"
+      href="https://github.com/Dragoadri"
       target="_blank"
       class="flag-stripe__content"
     >

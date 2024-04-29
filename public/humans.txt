@@ -1,5 +1,5 @@
 /* TEAM */
-	Developer: Bogdan Kostyuk.
+	Developer: Adrian Cañadas
 	Telegram: https://t.me/bogdankostyuk.
 	Location: Ukraine, if you wanna know more, write me 😁.
 

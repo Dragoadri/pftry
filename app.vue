@@ -68,7 +68,8 @@ onMounted(() => {
 
 <template>
   <VNavbar />
-  <UkraineFlagStripe />
+  <!---->
+  <SpainFlagStripe />
 
   <Transition
     :css="false"
