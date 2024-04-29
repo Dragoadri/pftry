@@ -11,7 +11,7 @@
       target="_blank"
       class="flag-stripe__content"
     >
-      Help Ukraine
+       Github
     </NuxtLink>
   </div>
 </template>
@@ -45,19 +45,18 @@
     position: absolute;
     left: 0;
     right: 0;
-
-    height: 33%;
+    height: 33.5%;
 
     &:nth-child(1) {
       background-color: #ac2626;
       top: 0;
     }
     &:nth-child(2) {
-      background-color: #dbb624;
-      top: 33.4%;
+      background-color: #DBB624FF;
+      top: 33%;
     }
     &:nth-child(3) {
-      background-color: #db2424;
+      background-color: #ac2626;
       bottom: 0;
     }
   }
