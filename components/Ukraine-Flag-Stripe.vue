@@ -54,7 +54,7 @@
     }
     &:nth-child(2) {
       background-color: #dbb624;
-      top: 33%;
+      top: 33.4%;
     }
     &:nth-child(3) {
       background-color: #db2424;
