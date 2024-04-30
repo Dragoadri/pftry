@@ -2,7 +2,7 @@
 const { $smoothScroll } = useNuxtApp();
 
 function scrollDown() {
-  $smoothScroll.scrollTo('.projects');
+  $smoothScroll.scrollTo('.about-me');
 }
 </script>
 

@@ -41,7 +41,7 @@ function render() {
   if ($smoothScroll.scrollY() + 20 > window.innerHeight || !isShaderRunning)
     return;
 
-  const nextTime = prefersReducedMotion.value ? 0 : 0.0085;
+  const nextTime = prefersReducedMotion.value ? 0 : 0.0085; // esto es la velocidad de la animacion
   object.program.uniforms.time.value += nextTime;
 
   renderer.render({ scene, camera });
@@ -68,7 +68,7 @@ function createBackground() {
   gl = renderer.gl;
 
   gl.clearColor(...clearColor, 1);
-
+//fov: es el angulo de vision de la camara , aspect: es la relacion de aspecto de la camara, near: es la distancia minima de la camara, far: es la distancia maxima de la camara
   camera = new Camera(gl, { fov: 70, aspect, near: 0.5, far: 1.5 });
   camera.position.set(0, 0, 1);
 
@@ -90,7 +90,7 @@ function createBackground() {
       time: { value: 0.0 },
       randomSeed: { value: Math.random() },
       objectOpacity: { value: 0.0 },
-      noisePower: { value: 1.0 },
+      noisePower: { value: 1 },//esto es lo que hace que se vea el ruido, numero de ondas
       pixelRatio: { value: window.devicePixelRatio },
       resolution: {
         value: new Vec2(window.innerWidth, window.innerHeight),

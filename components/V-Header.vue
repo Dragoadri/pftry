@@ -1,4 +1,6 @@
 <script setup>
+import { ref } from 'vue';
+
 const { gsap } = useGsap();
 const emitter = useEmitter();
 const prefersReducedMotion = useReducedMotion();
@@ -28,7 +30,7 @@ function revealContent() {
       { yPercent: 100, opacity: 1 },
       { yPercent: 0, duration: 1.5, stagger: 0.175 },
     );
-
+//esto es la animacion de la linea de abajo
   mainTl.to(
     '.header__container__subtitle__char',
     {
@@ -56,11 +58,23 @@ onBeforeUnmount(() => {
     clearProps: 'all',
   });
 });
+var colors= ref(['#FF0000', '#00FF00', '#0000FF']);
+
 </script>
 
 <template>
   <header ref="header" class="header" data-scroll-section>
     <VHeaderBackground class="header__canvas" />
+
+    <!-- un unico circulo que se divida en 3 porciones iguales y que cada porcion sea una de las de la variable colors -->
+
+
+    <div class="circle-color-picker">
+
+    </div>
+
+
+
 
     <div class="header__container">
       <h1 class="header__container__title">
@@ -246,4 +260,36 @@ onBeforeUnmount(() => {
     transform: translateX(-50%);
   }
 }
+//     un unico circulo que se divida en 3 porciones iguales y que cada porcion sea una de las de la variable colors
+//ponerlo, ademas arriba a la izquierda de la pantalla
+
+.circle-color-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+top: 0;
+left: 0;
+  margin: 50px;
+
+
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: conic-gradient(
+  //los colores de la variable colors
+  
+    red 0 120deg,
+    green 120deg 240deg,
+    blue 240deg 360deg
+  );
+  animation: rotate 5s linear infinite;
+
+
+
+}
+
+
+
 </style>
