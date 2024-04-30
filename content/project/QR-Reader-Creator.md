@@ -9,8 +9,8 @@ tags:
   - three.js
   - gsap
   - SCSS
-image: 'https://static-00.iconduck.com/assets.00/google-play-icon-2048x2048-487quz63.png'
-previewImage: 'https://static-00.iconduck.com/assets.00/google-play-icon-2048x2048-487quz63.png'
+image: 'https://image.winudf.com/v2/image1/Y29tLmRyYWdvZGV2LlFSZWFkZXJHZW5lcmF0b3JfaWNvbl8xNjY5ODU2MjUzXzA3NQ/icon.webp?w=140&fakeurl=1&type=.webp'
+previewImage: 'https://image.winudf.com/v2/image1/Y29tLmRyYWdvZGV2LlFSZWFkZXJHZW5lcmF0b3JfaWNvbl8xNjY5ODU2MjUzXzA3NQ/icon.webp?w=140&fakeurl=1&type=.webp'
 createdAt: '2022-03-31T00:00:00+03:00'
 ---
 
