@@ -7974,6 +7974,7 @@ __metadata:
     sass: 1.64.1
     sitemap: ^7.1.1
     split-type: 0.3.3
+    swiper: ^11.1.1
     typescript: ^5.1.6
     vite-plugin-glsl: 1.1.2
     vite-svg-loader: ^4.0.0
@@ -8637,6 +8638,13 @@ __metadata:
   bin:
     svgo: ./bin/svgo
   checksum: 42168748a5586d85d447bec2867bc19814a4897f973ff023e6aad4ff19ba7408be37cf3736e982bb78e3f1e52df8785da5dca77a8ebc64c0ebd6fcf9915d2895
+  languageName: node
+  linkType: hard
+
+"swiper@npm:^11.1.1":
+  version: 11.1.1
+  resolution: "swiper@npm:11.1.1"
+  checksum: fb3b12034f94036a32c3d229cc2a630d281d56100ec78f948a69d7a49892f6c744291e2a2c6ed89c0058dcb8718c24cc8535194c4a1e42f4de4f59c961472ee1
   languageName: node
   linkType: hard
 
