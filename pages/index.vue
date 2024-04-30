@@ -61,8 +61,8 @@ useImagesLoaded(indexPage, () => emitter.emit('images:loaded'));
     <div class="smooth-scroll-fix">
       <VHeader />
       <main>
-        <VProjects />
         <VAboutMe />
+        <VProjects />
         <VContact />
       </main>
     </div>

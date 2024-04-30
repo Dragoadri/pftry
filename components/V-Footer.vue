@@ -76,7 +76,8 @@ onMounted(() => {
             height="60"
             alt="love"
           />
-          in
+          in SPAIN
+          <!--
           <img
             title="Ukraine"
             loading="lazy"
@@ -84,7 +85,7 @@ onMounted(() => {
             width="70"
             height="70"
             alt="ukraine"
-          />
+          /> -->
         </p>
       </div>
       <button
